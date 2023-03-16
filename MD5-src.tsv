@@ -1,7 +1,13 @@
+./odoo-stock/stock_kardex/static/src/js/kardex.js	stock_kardex/static/src/js/kardex.js	59cacdb6a8e55d267f525cdbaf119deb
+./odoo-stock/stock_kardex/static/src/scss/kardex.scss	stock_kardex/static/src/scss/kardex.scss	19e15ece14c468f7b9433e6e188eb5e6
+./odoo-stock/stock_kardex/static/src/xml/kardex.xml	stock_kardex/static/src/xml/kardex.xml	87f749fe8c7a198fed6ff30efa0c2a34
 ./odoo-event/event_smart_ticket/static/description/icon.png	event_smart_ticket/static/description/icon.png	e26f6f3cda5d5de8646e29cd94394222
 ./odoo-event/event_smart_ticket/static/description/icon.svg	event_smart_ticket/static/description/icon.svg	6a594a5673328ae1bc639ef360aa05fc
 ./odoo-event/event_smart_ticket/static/src/css/style.css	event_smart_ticket/static/src/css/style.css	48316e3241d209159a54066d0966594f
 ./odoo-event/event_smart_ticket/static/src/js/order_widgets.js	event_smart_ticket/static/src/js/order_widgets.js	1302ca21199b6a9578979a3b971dbf60
+./odoo-store/multi_branch_base/static/src/js/switch_branch_menu.js	multi_branch_base/static/src/js/switch_branch_menu.js	5d6df2086fa5bfe3e2b10dd813bd6f7f
+./odoo-store/multi_branch_base/static/src/scss/style.scss	multi_branch_base/static/src/scss/style.scss	1625e300a0631c8b73c03fe93a7fac22
+./odoo-store/multi_branch_base/static/src/xml/template.xml	multi_branch_base/static/src/xml/template.xml	e9c259da517be6cac53c282041f9da5c
 ./odoo-misc/match_event/static/src/css/style.css	match_event/static/src/css/style.css	d41d8cd98f00b204e9800998ecf8427e
 ./odoo-misc/match_event/static/src/img/Logo Marathon.png	match_event/static/src/img/Logo Marathon.png	9a22bd5b15554f59909e5f13f602ab7d
 ./odoo-misc/match_event/static/src/img/Pie de P gina.png	match_event/static/src/img/Pie de P gina.png	b73ecc58a5ca09a70af3a974db5f1999

@@ -25,11 +25,8 @@ def md5(fname):
 def similarity(file1, file2):
     text1 = open(file1, 'rb').read()
     text2 = open(file2, 'rb').read()
-    try:
-        m = SequenceMatcher(None, text1, text2)
-        return m.ratio()
-    except Exception:
-        return "SKIP"
+    m = SequenceMatcher(None, text1, text2)
+    return m.ratio()
 
 
 if __name__ == '__main__':

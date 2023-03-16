@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+     <xpath expr="//div[hasclass('pos-receipt-contact')]" position="after">
+           <div class="pos-receipt-customer">
+               <t if="receipt.client">
+                    <div>--------------------------------</div>
+                   <t t-if="receipt.client.name">
+                        <div><t t-esc="receipt.client.name"/></div>
+                    </t>
+                   <t t-if="receipt.client.vat">
+                        <div>
+                            <t t-esc="receipt.client.l10n_latam_identification_type_id ? receipt.client.l10n_latam_identification_type_id[1] : undefined">ID</t>: <t t-esc="receipt.client.vat"/>
+                        </div>
+                    </t>
+                   <t t-if="receipt.client.street">
+                        <div>
+                            <t t-esc="receipt.client.street"/>
+                            <t t-if="receipt.client.city">, <t t-esc="receipt.client.city"/></t>
+                            <t t-if="receipt.client.state_id">, <t t-esc="receipt.client.state_id[1]"/></t>
+                            <t t-if="receipt.client.country_id">, <t t-esc="receipt.client.country_id[1]"/></t>
+                        </div>
+                    </t>
+                   <t t-if="receipt.client.email">
+                        <div>
+                            Email: <t t-esc="receipt.client.email"/>
+                        </div>
+                    </t>
+                   <t t-if="receipt.client.phone">
+                        <div>
+                            Tel: <t t-esc="receipt.client.phone"/>
+                        </div>
+                    </t>
+                   <t t-if="receipt.client.mobile">
+                        <div>
+                            Cel: <t t-esc="receipt.client.mobile"/>
+                        </div>
+                    </t>
+               </t>
+           </div>
+     </xpath>
+    </t>
+</templates>

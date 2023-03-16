@@ -2,14 +2,15 @@ import os
 import csv
 import hashlib
 import datetime
+from collections import OrderedDict
 
 REPOS = []
-REPO_MD5 = {}
+REPO_MD5 = OrderedDict()
 
 # SE EXLUYEN LOS MÓDULOS DETECTADOS PERO NO SON PARTE DE LITIGIO
 APP_EXCLUDED = ['sh_event_seat_booking', 'account_reconciliation', 'deltatech_invoice_receipt',
                 'account_dynamic_reports', 'website_customer_location_app', 'deltatech_no_quick_create',
-                'stock_kardex_audit', '/fonts/']
+                'stock_kardex_audit', 'stock_no_negative', '/fonts/']
 
 
 def md5(fname):

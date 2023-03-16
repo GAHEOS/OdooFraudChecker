@@ -9,3 +9,4 @@ odoo-mrp	git@github.com:GAHEOS/odoo-mrp	17eac344bd6a4159528e5be65c24819b0d695a3f
 odoo-payment	git@github.com:GAHEOS/odoo-payment	50cfe234d085452107a81e7744ac50d8bb17c0e0
 odoo-purchase	git@github.com:GAHEOS/odoo-purchase	df62742a2dc61caf65d19f5db49c70d54a9dd925
 odoo-store	git@github.com:GAHEOS/odoo-store	c5fc82b10190177459983587e8cf2fbbb812829f
+odoo-stock	git@github.com:GAHEOS/odoo-stock	e458ce46a5c8328ddc1879487d8e2acc64a183a2
